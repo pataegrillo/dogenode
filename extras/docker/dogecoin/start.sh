@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Launch, utilizing the SIGTERM/SIGINT propagation pattern from
+# Launch, utilizing the SIGTERM/SIGINT propagation pattern from 
 # http://veithen.github.io/2014/11/16/sigterm-propagation.html
 : ${PARAMS:=""}
 if [ ! -f /root/.dogecoin/blocks/blk00000.dat ]; then
